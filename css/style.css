@@ -1,0 +1,126 @@
+.margin_top20 {
+    margin-top: 20px;
+}
+
+.background_lavender {
+    background: lavender;
+    text-align: center;
+}
+
+.border_radius {
+    border-radius:
+}
+
+.action {
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.action:hover {
+    text-decoration: none;
+}
+
+.icon-delete {
+    color: #c9302c;
+    margin: 2px;
+}
+
+.icon-complete {
+    color: #4cae4c;
+    margin: 2px;
+}
+
+.warning {
+    color: #a94442;
+    display: none;
+    width: 180px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.height_25 {
+    height: 25px;
+}
+
+.btn-submit:hover {
+    background: white;
+    color: #4cae4c;
+}
+
+.btn-submit:focus {
+    background: white;
+    color: #4cae4c;
+}
+
+.btn-submit:active {
+    background: white;
+    color: #4cae4c;
+}
+
+.error {
+    border-color: #c9302c;
+}
+
+#input-control {
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.col-lg-6 h3 {
+    text-align: center;
+    background-color: LightSkyBlue;
+    color: white;
+    font-size: 30px;
+}
+
+.col-lg-6 li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.list-item-draft li,
+.list-item-complete li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    list-style: none;
+}
+
+
+/* thiết lập các phần tử li lẻ một màu nền khác */
+
+.list-item-draft:nth-child(odd),
+.list-item-complete li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.body-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.at-completed {
+    display: none;
+}
+
+p {
+    margin: 0 0 1px;
+}
+
+.padding_bottom20 {
+    padding-bottom: 20px;
+}
+
+#appt-time {
+    font-style: italic;
+}
+
+.date-list {
+    font-size: 12px;
+    font-style: italic;
+    float: right;
+}

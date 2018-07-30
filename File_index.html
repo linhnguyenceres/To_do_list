@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>To do list</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/File_index.js"></script>
+
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <div class="container margin_top20">
+            <div class="background_lavender">
+                <div class="row">
+                    <h2><b>TO DO LIST</b></h2>
+                    <form class="form-inline">
+                        <div class="input-group to-do-list">
+                            <input class="form-control" id="input-control" aria-describedby="basic-addon1" value="">
+                        </div>
+                        <button type="button" class="btn btn-info btn-submit">Submit</button>
+                        <div class="height_25">
+                            <p class="warning"><b>Please input something</b></p>
+                        </div>
+                    </form>
+
+                    <div class="padding_bottom20">
+                        <label for="appt-time">Time:</label>
+                        <input type="date" id="appt-time" name="appt-time" value=" " />
+                    </div>
+                </div>
+            </div>
+
+            <div class="container your-list">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3 class="title text_white">List</h3>
+                        <ol class="list-item-draft"></ol>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h3 class="title">Check List</h3>
+                        <ol class="list-item-complete"></ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Hey!!! Wait...</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are you sure you want to delete?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">No</button>
+                        <button type="submit" class="btn btn-primary btn-delete" data-todo-id="">Sure</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
